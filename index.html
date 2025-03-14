@@ -17,10 +17,13 @@
         <symbol id="arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
         </symbol>
+        <symbol id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </symbol>
     </svg>
 
     <!-- header -->
-    <header>
+    <header class="hidden lg:opacity-100 lg:visible">
         <div class="opacity-0 invisible lg:opacity-100 lg:visible flex items-center justify-between px-24 mx-auto max-w-[1920px] h-24 bg-white/5 rounded-b-lg">
             <div>
                 <img class="h-7" src="images/logo.png" alt="Logo-Me">
@@ -44,12 +47,27 @@
         </div>
     </header>
 
+
+
+    <div class="flex items-center justify-between h-16 px-4 bg-white/10 opacity-100 visible lg:opacity-0 lg:invisible">
+        <div class="size-10 mt-4">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div>
+            <svg class="size-7 text-emerald-400">
+                <use href="#menu"></use>
+            </svg>
+        </div>
+    </div>
+
+
+
     <!-- particles -->
-    <div id="particles-js" class="fixed top-24 w-full h-200 md:h-400 -z-40"></div>
+    <div id="particles-js" class="fixed top-24 w-full h-260 md:h-400 -z-40"></div>
 
     <!-- Discription -->
-    <header class="z-10 mt-20 px-10">
-        <div class="flex flex-col-reverse gap-y-10 lg:flex-row items-center justify-between max-w-[1920px] mx-auto">
+    <header class=" z-10 mt-10 md:mt-20 px-10 md:px-20">
+        <div class="flex flex-col-reverse gap-y-10 lg:flex-row lg:items-center lg:justify-between 2xl:w-[1920px]">
             <!-- title -->
             <div class="max-w-300 p-12 xl:p-18 bg-white/8 rounded-2xl">
                 <div class="flex flex-col gap-y-8 lg:gap-y-16 z-20">
@@ -59,11 +77,8 @@
                 </div>
             </div>
             <!-- img profile -->
-            <div class="mx-10">
-                <!-- w-75 md:w-130 h-75 md:h-130  -->
-                <div class="size-75 md:size-100 xl:size-115 2xl:size-130 rounded-full overflow-hidden">
-                    <img src="images/photo_2025.png" alt="">
-                </div>
+            <div class="rounded-full overflow-hidden">
+                <img class="max-size-130" src="images/photo_2025.png" alt="">
             </div>
         </div>
     </header>

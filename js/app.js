@@ -17,14 +17,14 @@ titleElemtypewriter.typeString('Hi There!')
     particlesJS('particles-js',{
           "particles": {
             "number": {
-              "value": 50,
+              "value": 60,
               "density": {
                 "enable": true,
                 "value_area": 800
               }
             },
             "color": {
-              "value": "#ffffff"
+              "value": "#2ecc71"
             },
             "shape": {
               "type": "circle",
@@ -64,7 +64,7 @@ titleElemtypewriter.typeString('Hi There!')
             "line_linked": {
               "enable": true,
               "distance": 150,
-              "color": "#ffffff",
+              "color": "#16a085",
               "opacity": 0.4,
               "width": 1
             },
