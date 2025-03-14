@@ -13,15 +13,11 @@ titleElemtypewriter.typeString('Hi There!')
 
     .start();
 
-
     // particles JS
-
-    particlesJS('particles-js',
-  
-        {
+    particlesJS('particles-js',{
           "particles": {
             "number": {
-              "value": 50,
+              "value": 40,
               "density": {
                 "enable": true,
                 "value_area": 800
@@ -136,3 +132,16 @@ titleElemtypewriter.typeString('Hi There!')
         }
       
       );
+
+
+
+
+
+
+
+
+
+
+
+
+

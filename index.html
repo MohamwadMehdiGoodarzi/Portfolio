@@ -19,65 +19,73 @@
         </symbol>
     </svg>
 
-
+    <!-- class="hidden lg:block" -->
     <!-- Header -->
-    <div class="flex justify-around items-center w-full h-24 bg-white/5">
-        <!-- menu header -->
-       <div class="flex gap-x-20 *:text-xl">
-           <div>
-               <ul class="flex gap-x-9 *:hover:text-orange-300 cursor-pointer *:transition *:delay-75 *:duration-150 *:ease-in ">
-                   <li><span class="text-orange-400">H</span><span class="text-orange-300">o</span>me</li>
-                   <li><span class="text-orange-400">C</span><span class="text-orange-300">o</span>ntacts</li>
-                   <li><span class="text-orange-400">W</span><span class="text-orange-300">o</span>rks</li>
-                   <li><span class="text-orange-400">A</span><span class="text-orange-300">b</span>out Me</li>
-               </ul>
-           </div>
-            <div class="flex items-center gap-0.5">
-                <p class="text-orange-300 text-lg">EN</p>
-                <svg class="size-5 text-orange-400">
-                    <use href="#arrow-down"></use>
-                </svg>
+    <header class="hidden lg:block">
+        <div class="flex justify-around items-center mx-auto px-12 max-w-[1920px] h-24  bg-white/5">
+            <!-- menu header -->
+           <div class="flex gap-x-20 *:text-xl">
+               <div>
+                   <ul class="flex gap-x-9 *:hover:text-orange-300 cursor-pointer *:transition *:delay-75 *:duration-150 *:ease-in ">
+                       <li><span class="text-orange-400">H</span><span class="text-orange-300">o</span>me</li>
+                       <li><span class="text-orange-400">C</span><span class="text-orange-300">o</span>ntacts</li>
+                       <li><span class="text-orange-400">W</span><span class="text-orange-300">o</span>rks</li>
+                       <li><span class="text-orange-400">A</span><span class="text-orange-300">b</span>out Me</li>
+                   </ul>
+               </div>
+                <div class="flex items-center gap-0.5">
+                    <p class="text-orange-300 text-lg">EN</p>
+                    <svg class="size-5 text-orange-400">
+                        <use href="#arrow-down"></use>
+                    </svg>
+                </div>
+           </div> 
+            <!-- img logo -->
+            <div>
+                <img class="h-7" src="images/logo.png" alt="Logo-Me">
             </div>
-       </div> 
-        <!-- img logo -->
-        <div>
-            <img class="h-7" src="images/logo.png" alt="Logo-Me">
         </div>
-    </div>
+    </header>
 
     <!-- particles -->
-    <div id="particles-js" class="fixed top-0 left-0 w-full h-180 -z-50"></div>
+    <div id="particles-js" class="fixed top-0 left-0 w-full h-[1500px] md:h-180 -z-50"></div>
 
 
-    <header class="relative flex justify-around items-center w-full mt-32 z-10">
+    <header class="z-10 mt-20">
+        <div class="flex-col items-center mx-auto">
+            <!-- title -->
+            <div class="max-w-300 p-18 bg-white/8 rounded-2xl">
+                <div class="flex flex-col gap-y-16 z-20">
+                    <h1 class="text-3xl md:text-6xl"><span class="text-emerald-400">Mohamwad</span> Is A <span class="text-orange-400">Web Designer</span> And <br ><br > Front End Developer</h1>
+                    <div id="title" class="text-lg md:text-2xl font-sans">
 
-        <!-- title -->
-        <div class="w-300 p-18 bg-white/8 rounded-2xl">
-            <div class="flex flex-col gap-y-16 z-20">
-                <h1 class="text-6xl"><span class="text-emerald-400">Mohamwad</span> Is A <span class="text-orange-400">Web Designer</span> And <br ><br > Front End Developer</h1>
-                <div id="title" class="text-2xl font-sans">
-
+                    </div>
+                    <!-- <h4 class="text-2xl font-sans">He crafts responsive websites where technologies meet creativity</h4> -->
+                    <button class="w-40 md:w-60 h-12 md:h-12 rounded-xl bg-emerald-600 text-lg md:text-2xl font-serif hover:bg-emerald-700 cursor-pointer">Contact Me</button>
                 </div>
-                <!-- <h4 class="text-2xl font-sans">He crafts responsive websites where technologies meet creativity</h4> -->
-                <button class="w-60 h-12 rounded-xl bg-emerald-600 text-2xl font-serif hover:bg-emerald-700 cursor-pointer">Contact Me</button>
+            </div>
+            <!-- img profile -->
+            <div class="px-10">
+                <div class="mx-auto w-75 md:w-130 h-75 md:h-130 rounded-full overflow-hidden">
+                    <img src="images/photo_2025.png" alt="">
+                </div>
             </div>
         </div>
-        <!-- shape -->
-            <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            </div>
-        <!-- img profile -->
-            <div>
-            <div class="size-130 rounded-full bg-amber-500 overflow-hidden shadow-2xs">
-                <img src="images/photo_2025-03-13_21-36-53.jpg" alt="">
-            </div>
-            </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
